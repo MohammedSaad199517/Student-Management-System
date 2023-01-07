@@ -1,0 +1,155 @@
+.registerTeacher-holder {
+    margin:10px auto 0 auto;
+    max-width: 1000px;
+    padding: 1rem;
+    background-color: rgba(19, 19, 28, 0.825);
+    border-radius: 10px;
+    color: #fff;
+}
+.registerTeacher-holder form .box{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.registerTeacher-holder form .box:nth-of-type(2){
+    border-left: 1px solid ;
+    padding-left: 10px;
+}
+.registerTeacher-holder form {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 10px;
+   
+    padding-bottom: 1rem;
+}
+
+
+
+.registerTeacher-holder input[type="text"],
+.registerTeacher-holder input[type="email"],
+.registerTeacher-holder input[type="password"],
+.registerTeacher-holder button,
+.registerTeacher-holder select,
+.registerTeacher-holder textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+
+  height: fit-content;
+
+}
+
+.registerTeacher-holder label,
+.registerTeacher-holder button {
+  margin-top: 1rem;
+}
+
+.registerTeacher-holder button {
+  padding: 0.5rem;
+  
+}
+
+.registerTeacher-holder li {
+    list-style-type: none;
+}
+
+.registerStudent-holder .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.registerTeacher-holder .instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.registerTeacher-holder .offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.registerTeacher-holder .hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.flexGrow {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+h1{
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-bottom: 5px;
+}
+
+.sign-up{
+    margin-top: 10px;
+}
+.sign-in{
+    
+    font-size: 30px;
+    margin-top: 100px;
+ color: aqua;
+}
+.seccess{
+    text-align: center;
+   
+}
+.gender>label{
+    display: flex;
+    align-items: center;
+   margin: 0.5rem 0;
+  
+
+}
+.select-gender{
+    margin-left: 20px;
+    
+
+}
+.registerTeacher-holder .stage .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.registerTeacher-holder .stage {
+    display: flex;
+
+}
+.registerTeacher-holder .stage>label{
+    margin-right: 10px;
+}

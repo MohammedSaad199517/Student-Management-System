@@ -1,0 +1,17 @@
+.courses .box{
+    background-color: #fff;
+    color:black;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.courses  .box h2{
+    text-align: center;
+}
+.courses  form{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.courses form>input{
+    flex: 1;
+}

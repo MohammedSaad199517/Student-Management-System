@@ -1,0 +1,126 @@
+
+
+.registerAdmin-holder ,
+.seccess{
+    margin:20px auto;
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(19, 19, 28, 0.825);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.registerAdmin-holder>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+
+
+.registerAdmin-holder input[type="text"],
+.registerAdmin-holder input[type="email"],
+.registerAdmin-holder input[type="password"],
+.registerAdmin-holder button,
+.registerAdmin-holder textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+
+.registerAdmin-holder label,
+
+.registerAdmin-holder button {
+  margin-top: 1rem;
+}
+
+
+
+.registerAdmin-holder button {
+  padding: 0.5rem;
+  
+}
+
+
+.registerAdmin-holder li {
+    list-style-type: none;
+}
+
+
+.registerAdmin-holder .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.flexGrow {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+
+.sign-up{
+    margin-top: 10px;
+}
+.sign-in{
+    
+    font-size: 30px;
+    margin-top: 100px;
+ color: aqua;
+}
+.seccess{
+    text-align: center;
+   
+}
